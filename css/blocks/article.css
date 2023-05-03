@@ -1,0 +1,14 @@
+.article {
+    padding: 60px 0 50px;
+}
+
+.article__main-title {
+    font-size: 60px;
+    line-height: 72px;
+    margin-bottom: 30px;
+}
+
+
+.article__text {
+    margin-bottom: 30px;
+}

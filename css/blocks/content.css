@@ -1,0 +1,15 @@
+.content__title {
+    margin:0 0 30px;
+}
+
+.content__img-left {
+    float: left;
+}
+
+.content__img-right {
+    float: right
+}
+
+.log1 {
+    display: block;
+}

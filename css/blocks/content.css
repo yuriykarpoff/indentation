@@ -2,10 +2,15 @@
     margin:0 0 30px;
 }
 
-.content__img-left {
-    float: left;
+.content {
+    padding: 20px 0 0;
 }
 
-.content__img-right {
-    float: right
+.margin-line {
+    display: flow-root;
+    padding: 0 0 30px;
+}
+
+.margin-line__clear {
+    clear:left;
 }

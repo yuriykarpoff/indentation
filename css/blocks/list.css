@@ -1,5 +1,10 @@
 .list {
     padding: 20px 0 0;
+    margin-bottom: 50px;
+}
+
+.list:last-child {
+    margin-bottom: 0;
 }
 
 .list__container {
@@ -7,7 +12,7 @@
     background-color: #f1f1f1;
     border-radius: 10px;
     padding: 25px 60px;
-    margin-bottom: 50px;
+
 }
 
 .list__title {
@@ -16,17 +21,27 @@
     line-height: 53px;
 }
 
-.list__content {
-    list-style-position:inside;
-}
-
 .list__item {
     list-style: decimal;
+    list-style-position: inside;
     margin: 0 0 10px;
+}
+
+.list__item-result {
+    list-style: none;
+}
+
+.list__item-result::before {
+    content: " \2014"; 
+    margin-right: 10px;
 }
 
 .list__item:last-child {
     margin: 0;
+}
+
+.list__item-result:last-child {
+    margin-bottom: 30px;
 }
 
 .list__link {
@@ -38,3 +53,6 @@
     color: #00353d;
 }
 
+.list .article__text {
+    margin-bottom: 0;
+}

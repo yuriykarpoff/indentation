@@ -12,6 +12,10 @@
     margin-bottom: 30px;
 }
 
+.article__text:last-child {
+    margin-bottom: 0;
+}
+
 .article__text_last-element {
     margin-bottom: 0;
 }

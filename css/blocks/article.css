@@ -20,14 +20,17 @@
     margin-bottom: 0;
 }
 
-.article__image {
-    display: block;
-    margin: 0 auto 30px;
+.article__text_clear-element {
+    clear:left;
 }
 
 .article__image {
     display: block;
     margin: 0 auto 30px;
+}
+
+.article__image:last-child {
+    margin-bottom: 0;
 }
 
 .article__image-left {
@@ -37,7 +40,7 @@
 
 .article__image-right {
     float: right;
-    padding-left: 30px;
+    padding-left: 40px;
 }
 
 .article__figure {

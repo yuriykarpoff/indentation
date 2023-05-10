@@ -1,16 +1,13 @@
 .content__title {
-    margin:0 0 30px;
+    margin: 0 0 30px;
+    font-size: 36px;
+    line-height: 43px;
 }
 
 .content {
     padding: 25px 0;
 }
 
-.margin-line {
-    display: flow-root;
-    padding: 0 0 30px;
-}
-
-.margin-line__clear {
-    clear:left;
+.content:first-child {
+    padding-top: 0;
 }

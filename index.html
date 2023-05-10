@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -11,7 +11,7 @@
 
 <body>
     <article class="article">
-        <section class="content">
+        
             <div class="container">
                 <h1 class="article__main-title">Отступы в вёрстке: margin и padding</h1>
                 <p class="article__text">В этой статье я рассмотрю самые популярные "стандартные" решения для сохранения
@@ -22,7 +22,6 @@
                 их пределы. Эти знания особенно важны для начинающих, но также будут полезным напоминанием и для более
                 опытных верстальщиков. Итак, поговорим о фундаментальных основах работы с отступами в вёрстке.</p>
             </div>
-        </section>
 
         <nav class="list">
             <div class="container list__container">
@@ -38,7 +37,9 @@
             </div>
         </nav>
 
-            <div class="container margin-line" id="margin-direction">
+        <section class="content" id="margin-direction">
+            <div class="container">
+                <h3 class="content__title">Отступ задается от предыдущего элемента к следующему: от первого ко второму, сверху вниз, слева направо.</h3>
                 <img class="article__image-left" src="image/article01.jpg" height="415" alt="margin променяем только right и bottom">
                 
                 <p class="article__text"><strong>ВАЖНО:</strong> <i>margin</i> всегда задают от предыдущего элемента к следующему.</p>
@@ -47,16 +48,18 @@
                 <p class="article__text">(!) Свойства <i>margin-left</i> и <i>margin-top</i> используются крайне редко.</p>
                 <p class="article__text article__text_last-element">Для <i>padding</i> верно обратное. Исключением является его применения в декоративных
                     целях, например, для увеличения области ссылки.</p>
+        
                 
                 
                 <img class="article__image-right" src="image/article02.jpg" height="279" alt="при отступе сверху используем padding">
-                <p class="article__text margin-line__clear">Отступ внутри блока сверху или слева реализуется через <i>padding-top</i> и
+                <p class="article__text article__text_clear-element">Отступ внутри блока сверху или слева реализуется через <i>padding-top</i> и
                     <i>padding-left</i> родителя.</p>
-                <p class="article__text margin-line__clear">Отступы, как правило, делают в направлении от предыдущего элемента к
+                <p class="article__text article__text_clear-element">Отступы, как правило, делают в направлении от предыдущего элемента к
                     следующему. Так элемент не будет толкать сам себя.</p>
-                <p class="article__tex margin-line__clear">Изначально элемент статичен, а его положение может меняться только под
+                <p class="article__text article__text_clear-element">Изначально элемент статичен, а его положение может меняться только под
                     воздействием свойств других блоков или свойств родителя.</p>
             </div>
+        </section>
 
         <section class="content" id="margin-dom">
             <div class="container">
@@ -125,7 +128,6 @@
                         <li class="list__item list__item-result">последнему элементу группы отступ всегда обнуляем</li>
                     </ul>
                     <p class="article__text">Конечно бывают исключения. Ведь макеты бывают различной сложности. Иногда базовые принципы приходится нарушать в угоду дизайнерского решения или простоты вёрстки. Но для этого эти принципы необходимо хорошо знать.</p>
-                </div>
                 </div>
             </section>
            
